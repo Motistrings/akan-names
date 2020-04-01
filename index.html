@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Akan Culture</title>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
-    </head>
-    <body>
-        <script src="script.js"></script>
-        <div class="container">
-            <div class="jumbotron">
-        <h1>AKAN NAMES</h1>
-        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+  <head>
+    <meta charset="utf-8" />
+    <title>Akan Culture</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign"
+    />
+    <style>
+      h1 {
+        font-size: 50px;
+      }
+      .w3-lobster {
+        font-family: "Lobster", serif;
+        color: rgb(224, 185, 9);
+       position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="w3-lobster">AKAN NAMES</h1>
+        <p class="description">
+          <strong>
+            Akan names are derived from Ghanian culture. Frequently in Ghana,
+            children are given their first name as a 'day name' which
+            corresponds to the day in the week they were born. Here are Ghanian
+            day names.</strong>
+        </p>
         <h1 class="try">Try out and see your Akan Name</h1>
-        <img src="akan culture.jpg" alt="">
-        <button>submit</button>
-        </div>
-        </div>
-        <form name='Birthday' onSubmit="return birthdayValidation();">
-            <ul>
-                <label for="birthday">Birthday:</label>
-                <input type="" id="birthday" name="birthday">
-                <form action="/action_page.php" method="post">
-                    <input type="text" name="fname" required>
-                    <input type="submit" value="Submit">
-            <li><label id="gender">Sex:</label></li>
-            <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
-            <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
-            </form>
+    
+          <script src="/js/script.js"></script>
         </form>
-    </body>    
+      </div>
+    </div>
+  </body>
 </html>
