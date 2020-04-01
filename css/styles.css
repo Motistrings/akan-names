@@ -21,6 +21,12 @@ body {
 .akanNames {
   color: rgba(255, 38, 0, 0.938);
 }
-.container-1 {
-  border-top: 5px solid white;
+.akann {
+  border: 2px solid white;
+}
+.akan {
+  margin: 2px;
+  color: white;
+  border-left: 8px solid blue;
+  font-size: large;
 }
