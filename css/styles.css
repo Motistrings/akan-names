@@ -5,8 +5,13 @@ body {
   color: white;
 }
 .jumbotron {
+  background-image: url("/Images/akan\ three.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .description {
   color: white;
   font-size: large;
+}
+body {
 }
