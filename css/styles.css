@@ -27,6 +27,6 @@ body {
 .akan {
   margin: 2px;
   color: white;
-  border-left: 8px solid blue;
+  border-left: 8px dotted blue;
   font-size: large;
 }
