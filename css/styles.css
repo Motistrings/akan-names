@@ -18,3 +18,9 @@ body {
 body {
   background-color: rgb(240, 167, 11);
 }
+.akanNames {
+  color: rgba(255, 38, 0, 0.938);
+}
+.container-1 {
+  border-top: 5px solid white;
+}
