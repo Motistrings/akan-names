@@ -5,6 +5,8 @@ body {
   color: white;
 }
 .jumbotron {
+  margin: 20px;
+  border-top: 10px solid white;
   background-image: url("/Images/akan\ three.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,4 +16,5 @@ body {
   font-size: large;
 }
 body {
+  background-color: rgb(240, 167, 11);
 }
