@@ -22,7 +22,10 @@ body {
   color: rgba(255, 38, 0, 0.938);
 }
 .akann {
-  border: 2px solid white;
+  border-style: inset;
+  width: fit-content;
+  padding: 5px;
+  margin: 10px;
 }
 .akan {
   margin: 2px;

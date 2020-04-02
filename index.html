@@ -12,7 +12,7 @@
     />
     <style>
       h1 {
-        font-size: 50px;
+        font-size: 60px;
       }
       .w3-lobster {
         font-family: "Lobster", serif;
@@ -33,40 +33,69 @@
             day names.</strong
           >
         </p>
-        <div class="akann"></div>
-        <h2 class="akanNames"><strong>Male Akan Names</strong></h2>
-        <p class=akan><strong>Kwasi,Kwadwo,Kwabena,Kwaku,Yaw,Kofi,Kwame</strong></p>
-        <h2 class="akanNames"><strong>Female Akan Names</strong></h2>
-        <p class=akan><strong>Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama</strong></p>
-        <br>
+        <div class="akann">
+          <h2 class="akanNames"><strong>Male Akan Names</strong></h2>
+          <p class="akan">
+            <strong>Kwasi,Kwadwo,Kwabena,Kwaku,Yaw,Kofi,Kwame</strong>
+          </p>
+          <h2 class="akanNames"><strong>Female Akan Names</strong></h2>
+          <p class="akan">
+            <strong>Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama</strong>
+          </p>
+          <br />
+        </div>
         <form name="myForm" class="form" onsubmit="validate();">
           <div class="form-1">
-          <label for="number">Year of Birth</label>
-          <input type="number" class="form-controls" id="year" placeholder="Enter Year of Birth eg. 2019" name="year">
+            <label for="number">Year of Birth</label>
+            <input
+              type="number"
+              class="form-controls"
+              id="year"
+              placeholder="Enter Year of Birth eg. 2019"
+              name="year"
+            />
           </div>
           <div class="form-1">
             <label for="month">Month of Birth</label>
-            <input type="number" class="form-controls" id="month" placeholder="Enter Month you were born" name="month">
-            </div>
-            <div class="form-1">
-              <label for="date">Date of Birth</label>
-              <input type="number" class="form-controls" id="date" placeholder="Enter Date of Birth eg. 03 for March">
-            </div>
-            <div class="form-1">
-              <label for="month">Gender</label></div></br>
-              <div class="form-checkbox">
-                <input type="radio"  name="gender" value="male" id="male"> 
-                <label for="male">Male</label><br>             
-              </div>
-              <div class="form-checkbox">
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
-              </div>
-            </div>
-        </form> 
+            <input
+              type="number"
+              class="form-controls"
+              id="month"
+              placeholder="Enter Month you were born"
+              name="month"
+            />
+          </div>
+          <div class="form-1">
+            <label for="date">Date of Birth</label>
+            <input
+              type="number"
+              class="form-controls"
+              id="date"
+              placeholder="Enter Date of Birth eg. 03 for March"
+            />
+          </div>
+          <div class="form-1">
+            <label for="month">Gender</label>
+          </div>
+          <br />
+          <div class="form-checkbox">
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">Male</label><br />
+          </div>
+          <div class="form-checkbox">
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br />
+          </div>
+          <button
+            type="submit"
+            class="button button-submit"
+            onclick="findName();"
+          >
+            Submit
+          </button>
+        </form>
         <script src="/js/script.js"></script>
-        </div>
       </div>
-     </div>
+    </div>
   </body>
 </html>
