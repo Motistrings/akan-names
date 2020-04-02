@@ -12,7 +12,7 @@
     />
     <style>
       h1 {
-        font-size: 60px;
+        font-size: 70px;
       }
       .w3-lobster {
         font-family: "Lobster", serif;
@@ -55,6 +55,7 @@
               name="year"
             />
           </div>
+          <br />
           <div class="form-1">
             <label for="month">Month of Birth</label>
             <input
@@ -65,6 +66,7 @@
               name="month"
             />
           </div>
+          <br />
           <div class="form-1">
             <label for="date">Date of Birth</label>
             <input
@@ -74,6 +76,7 @@
               placeholder="Enter Date of Birth eg. 03 for March"
             />
           </div>
+          <br />
           <div class="form-1">
             <label for="month">Gender</label>
           </div>
@@ -88,12 +91,36 @@
           </div>
           <button
             type="submit"
-            class="button button-submit"
+            class="btn btn-outline-dark text-white"
             onclick="findName();"
           >
             Submit
           </button>
         </form>
+        <br />
+        <div class="container">
+          <div
+            class="card bg-secondary text-center text-white"
+            style="width:200px"
+          >
+            <img
+              class="card-img-top"
+              src="Images/female.png"
+              alt="Card image"
+              style="width:100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">
+                <strong>Male & Female Akan Names</strong>
+              </h4>
+              <p class="card-text">
+                Get to fill the form above and see your
+                <span style="color:chartreuse">Akan Name!</span>.NB: Derived
+                from Ghanian culture
+              </p>
+            </div>
+          </div>
+        </div>
         <script src="/js/script.js"></script>
       </div>
     </div>
