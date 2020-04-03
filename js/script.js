@@ -71,11 +71,23 @@ function findDayResult() {
   date = document.getElementById("date").value;
   Century = parseInt(year.substring(0, 2));
   YY = parseInt(year.substring(2, 4));
+  //parseInt to convert strings to numbers.
   MM = parseInt(month);
   DD = parseInt(date);
   d =
     (Century / 4 - 2 * Century - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) %
     7;
   console.log(d);
+  //round off to the nearest integer
   return math.floor(d);
+}
+function showGender() {
+  var genderChoice = document.getElementsByName("gender");
+  if (genderChoice[0].checked == true) {
+    var gender = "male";
+  } else if (genderChoice[1].checked == true) {
+    var gender = "female";
+  } else {
+    return false;
+  }
 }
