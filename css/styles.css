@@ -1,8 +1,5 @@
 .form {
-  color:  white;
-}
-body {
-  background-color: rgb(240, 167, 11);
+  color: white;
 }
 .try {
   color: white;
@@ -38,6 +35,6 @@ body {
   font-size: large;
 }
 .card-text {
-  color:white);
+  color: white;
   font-size: large;
 }
