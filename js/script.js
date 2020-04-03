@@ -26,3 +26,17 @@ var femaleKwasiNames = [
   "Ama"
 ];
 var Century, YY, MM, DD, d, dayResult;
+
+function validate() {
+  var gender = document.getElementsByName("gender");
+  if (
+    document.myForm.year.value == "" ||
+    document.myForm.year.value.length != 4 ||
+    document.myForm.year.value > 2020 ||
+    document.myForm.year.value < 1900
+  ) {
+    alert("Invalid! please enter a valid year of birth");
+    document.myForm.month.year.focus();
+    return false;
+  }
+}
