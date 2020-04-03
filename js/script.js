@@ -25,4 +25,4 @@ var femaleKwasiNames = [
   "Afua",
   "Ama"
 ];
-var Century, Year, Month, Day, d, dayResult;
+var Century, YY, MM, DD, d, dayResult;
