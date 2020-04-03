@@ -65,3 +65,17 @@ function validate() {
     return true;
   }
 }
+function findDayResult() {
+  year = document.getElementById("year").value;
+  month = document.getElementById("month").value;
+  date = document.getElementById("date").value;
+  Century = parseInt(year.substring(0, 2));
+  YY = parseInt(year.substring(2, 4));
+  MM = parseInt(month);
+  DD = parseInt(date);
+  d =
+    (Century / 4 - 2 * Century - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) %
+    7;
+  console.log(d);
+  return math.floor(d);
+}
