@@ -90,4 +90,125 @@ function showGender() {
   } else {
     return false;
   }
+  switch (gender) {
+    case "male":
+      if (dayResult == 1) {
+        alert(
+          "You were born on " +
+            weekDays[0] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[0] +
+            "."
+        );
+      } else if (dayResult == 2) {
+        alert(
+          "You were born on " +
+            weekDays[1] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[1] +
+            "."
+        );
+      } else if (dayResult == 3) {
+        alert(
+          "You were born on " +
+            weekDays[2] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[2] +
+            "."
+        );
+      } else if (dayResult == 4) {
+        alert(
+          "You were born on " +
+            weekDays[3] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[3] +
+            "."
+        );
+      } else if (dayResult == 5) {
+        alert(
+          "You were born on " +
+            weekDays[4] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[4] +
+            "."
+        );
+      } else if (dayResult == 6) {
+        alert(
+          "You were born on " +
+            weekDays[5] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[5] +
+            "."
+        );
+      } else if (dayResult == 0 || dayResult == -0) {
+        alert(
+          "You were born on " +
+            weekDays[6] +
+            " and Your Male Akan Name is " +
+            maleKwasiNames[6] +
+            "."
+        );
+      }
+      break;
+    case "female":
+      if (dayResult == 1) {
+        alert(
+          "You were born on " +
+            weekDays[0] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[0] +
+            "."
+        );
+      } else if (dayResult == 2) {
+        alert(
+          "You were born on " +
+            weekDays[1] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[1] +
+            "."
+        );
+      } else if (dayResult == 3) {
+        alert(
+          "You were born on " +
+            weekDays[2] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[2] +
+            "."
+        );
+      } else if (dayResult == 4) {
+        alert(
+          "You were born on " +
+            weekDays[3] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[3] +
+            "."
+        );
+      } else if (dayResult == 5) {
+        alert(
+          "You were born on " +
+            weekDays[4] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[4] +
+            "."
+        );
+      } else if (dayResult == 6) {
+        alert(
+          "You were born on " +
+            weekDays[5] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[5] +
+            "."
+        );
+      } else if (dayResult == 0 || dayResult == -0) {
+        alert(
+          "You were born on " +
+            weekDays[6] +
+            " and Your Male Akan Name is " +
+            femaleKwasiNames[6] +
+            "."
+        );
+      }
+      break;
+    default:
+  }
 }
