@@ -212,3 +212,7 @@ function showGender() {
     default:
   }
 }
+function showCaseName() {
+  dayResult = findDayResult();
+  showGender();
+}
