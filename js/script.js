@@ -36,7 +36,18 @@ function validate() {
     document.myForm.year.value < 1900
   ) {
     alert("Invalid! please enter a valid year of birth");
-    document.myForm.month.year.focus();
+    document.myForm.year.focus();
+    return false;
+  } else if (
+    (document.myForm.month.value =
+      "" ||
+      document.myForm.month.value.length != 2 ||
+      document.myForm.month.value > 12 ||
+      document.myForm.month.value <= 0 ||
+      isNaN(document.myForm.month.value))
+  ) {
+    alert("Invalid! please enter month between 1 and 12");
+    document.myForm.month.focus();
     return false;
   }
 }
