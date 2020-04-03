@@ -49,5 +49,14 @@ function validate() {
     alert("Invalid! please enter month between 1 and 12");
     document.myForm.month.focus();
     return false;
+  } else if (
+    document.myForm.date.value > 31 ||
+    document.myForm.date.value <= 0 ||
+    isNaN(document.myForm.date.value) ||
+    document.myForm.date.value.length != 2
+  ) {
+    alert("Invalid! please enter date between 1 and 31");
+    document.myForm.date.focus();
+    return false;
   }
 }
