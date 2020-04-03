@@ -58,5 +58,10 @@ function validate() {
     alert("Invalid! please enter date between 1 and 31");
     document.myForm.date.focus();
     return false;
+  } else if (gender[0].checked == false && gender[1].checked == false) {
+    alert("Choose male or female");
+    return false;
+  } else {
+    return true;
   }
 }
