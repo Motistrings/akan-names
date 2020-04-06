@@ -5,7 +5,7 @@ var weekDays = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday"
+  "Saturday",
 ];
 var maleKwasiNames = [
   "Kwasi",
@@ -14,7 +14,7 @@ var maleKwasiNames = [
   "Kwaku",
   "Yaw",
   "Kofi",
-  "Kwame"
+  "Kwame",
 ];
 var femaleKwasiNames = [
   "Akosua",
@@ -23,7 +23,7 @@ var femaleKwasiNames = [
   "Akua",
   "Yaa",
   "Afua",
-  "Ama"
+  "Ama",
 ];
 var Century, YY, MM, DD, d, dayResult;
 
@@ -67,13 +67,11 @@ function validate() {
 }
 function findDayResult() {
   year = document.getElementById("year").value;
-  month = document.getElementById("month").value;
-  date = document.getElementById("date").value;
   Century = parseInt(year.substring(0, 2));
   YY = parseInt(year.substring(2, 4));
   //parseInt to convert strings to numbers.
-  MM = parseInt(month);
-  DD = parseInt(date);
+  MM = parseInt(document.getElementById("month").value);
+  DD = parseInt(document.getElementById("date").value);
   d =
     (Century / 4 - 2 * Century - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) %
     7;
@@ -81,7 +79,7 @@ function findDayResult() {
   //round off to the nearest integer
   return math.floor(d);
 }
-function showGender() {
+function getGender() {
   var genderChoice = document.getElementsByName("gender");
   if (genderChoice[0].checked == true) {
     var gender = "male";
@@ -212,7 +210,7 @@ function showGender() {
     default:
   }
 }
-function showCaseName() {
+function findName() {
   dayResult = findDayResult();
-  showGender();
+  getGender();
 }
