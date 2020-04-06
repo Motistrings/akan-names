@@ -41,4 +41,5 @@ Some Outputs are not accurate
 ## Contact Information
 For Collaborations and additions please contact my email timgrand4929@gmail.com
 ## License
+>MIT license
 >Copyright (c) 2020 Motistrings
