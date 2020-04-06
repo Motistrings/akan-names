@@ -4,7 +4,7 @@
 ## Description
 A web application that takes a `user's birthday`, calculates the `day` of the week they were born and then depending on their gender outputs their `Akan Name`.
 ## Screenshot
-
+file:///home/timgrand/Pictures/screenshot.png
 ## Setup
 * Open Terminal 
 
