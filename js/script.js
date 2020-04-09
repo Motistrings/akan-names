@@ -201,7 +201,7 @@ function getGender() {
         alert(
           "You were born on " +
             weekDays[6] +
-            " and Your Male Akan Name is " +
+            " and your Male Akan Name is " +
             femaleKwasiNames[6] +
             "."
         );
